@@ -10,15 +10,6 @@ This project transformed consolidated Victorian road crash and hospital injury d
 
 The project focused on making complex road-safety information easier to explore, interpret and communicate through interactive data visualisation and structured analytical storytelling.
 
-**Project Type:** Individual Academic Analytics Project  
-**Institution:** Deakin University  
-**Course:** Master of Business Analytics  
-**Unit:** MIS771 – Descriptive Analytics and Visualisation  
-**Period:** July 2024 – October 2024  
-**Primary Tool:** Tableau
-
----
-
 ## Business Problem
 
 Road crashes are influenced by multiple factors including time, location, environmental conditions, crash characteristics and road-user behaviour.
