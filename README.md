@@ -172,7 +172,7 @@ Key outcomes included:
 - exploration of temporal, geographic, crash-condition, crash-type and road-user patterns;
 - development of multiple interactive Tableau visualisations and dashboards;
 - creation of a structured Tableau Story to communicate analytical findings;
-- translation of analysis into a concise consultant-style presentation; and
+- translation of complex analytical findings into a structured decision-support narrative; and
 - development of evidence-based recommendations from the identified road-safety patterns.
 
 ---
