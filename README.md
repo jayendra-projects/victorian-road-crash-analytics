@@ -10,6 +10,21 @@ This project transformed consolidated Victorian road crash and hospital injury d
 
 The project focused on making complex road-safety information easier to explore, interpret and communicate through interactive data visualisation and structured analytical storytelling.
 
+## Project Snapshot
+
+**Role:** Data / Business Analyst  
+**Project:** Victorian Road Crash & Injury Analytics  
+**Duration:** Jul 2024 – Oct 2024  
+**Location:** Melbourne, Australia  
+**Primary Tool:** Tableau  
+**Focus:** Business Intelligence | Data Analysis | Data Visualisation | Decision Support
+
+## Data & Usage Note
+
+The analysis uses a consolidated Victorian road crash and injury dataset developed from Victoria Police road-crash reports and hospital injury information.
+
+The original source dataset is not redistributed through this repository. This repository presents selected analytical outputs and project artefacts for portfolio purposes.
+
 ## Business Problem
 
 Road crashes are influenced by multiple factors including time, location, environmental conditions, crash characteristics and road-user behaviour.
