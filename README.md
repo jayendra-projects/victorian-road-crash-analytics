@@ -195,19 +195,17 @@ This required translating a broad road-safety problem into specific analytical q
 
 ## Repository Structure
 
-```text
 victorian-road-crash-analytics/
 │
 ├── README.md
 │
 ├── dashboard/
-│   └── tableau-workbook.twbx
+│   └── victorian-road-crash-analysis.twbx
 │
 ├── images/
 │   ├── dashboard-overview.png
-│   ├── temporal-analysis.png
-│   ├── geographic-analysis.png
-│   └── road-user-analysis.png
+│   ├── temporal-trends.png
+│   └── risk-analysis.png
 │
 └── documentation/
     └── project-summary.pdf
