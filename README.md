@@ -1,211 +1,53 @@
 # Victorian Road Crash & Injury Analytics
 
-> An interactive Tableau analytics project exploring Victorian road crash and injury data to identify temporal, geographic, crash-condition and road-user patterns that can support evidence-based road-safety decision-making.
+Tableau analytics project turning consolidated Victorian road crash and hospital injury data (2014-2019) into an interactive Story, moving from high-level trends down to diagnostic detail on when, where and why crashes happen. Built from Victoria Police crash reports and hospital injury records; the underlying dataset isn't redistributed here, but the full dashboard is.
 
-## Project Overview
+## Storyboard
 
-Road crash data contains multiple interconnected factors including when and where crashes occur, environmental and road conditions, crash characteristics, road-user types and resulting injuries.
+<p align="center">
+  <img src="images/01-analysis-storyboard.png" width="900" alt="Full Tableau story storyboard: cover, introduction, rationale, ethics, overview, temporal trends, risk analysis, recommendations">
+</p>
 
-This project transformed consolidated Victorian road crash and hospital injury data into an interactive Tableau Story designed to help users move from high-level patterns to more detailed diagnostic analysis.
+## What the data shows
 
-The project focused on making complex road-safety information easier to explore, interpret and communicate through interactive data visualisation and structured analytical storytelling.
+**Accident severity peaked in 2015-2016 and declined through to 2019**, with the "other injury" and "serious injury" categories tracking closely together across the period.
 
-## Project Snapshot
+<p align="center">
+  <img src="images/02-overview-panel.png" width="420" alt="Overview panel: accident trend by severity 2014-2019, and accidents by Victorian region">
+</p>
 
-**Role:** Data / Business Analyst  
-**Project:** Victorian Road Crash & Injury Analytics  
-**Duration:** Jul 2024 – Oct 2024  
-**Location:** Melbourne, Australia  
-**Primary Tool:** Tableau  
-**Focus:** Business Intelligence | Data Analysis | Data Visualisation | Decision Support
+Geographically, the **Metropolitan region accounts for the largest single share of accidents (around 27%)**, consistent with it carrying the highest traffic volumes; South Eastern Region is the next largest contributor.
 
-## Data & Usage Note
+On risk conditions:
 
-The analysis uses a consolidated Victorian road crash and injury dataset developed from Victoria Police road-crash reports and hospital injury information.
+<p align="center">
+  <img src="images/03-risk-analysis-panel.png" width="420" alt="Risk analysis panel: accidents by speed zone, by alcohol involvement and severity, and by time of day">
+</p>
 
-The original source dataset is not redistributed through this repository. This repository presents selected analytical outputs and project artefacts for portfolio purposes.
+- **60 km/h zones account for the largest share of accidents of any speed zone** (around a third), well ahead of the 40, 80 and 100 km/h zones.
+- Most accidents are **not** alcohol-related, but the alcohol-involved share **spikes sharply in the early evening** (roughly hour 18-20), overlapping with the day's general afternoon/evening peak in accident volume.
 
-## Business Problem
+## Recommendations
 
-Road crashes are influenced by multiple factors including time, location, environmental conditions, crash characteristics and road-user behaviour.
+Nine evidence-based recommendations came out of the analysis, spanning three themes:
 
-Examining these dimensions independently can make it difficult for decision-makers to understand how road-safety patterns interact.
+- **Location & infrastructure**: prioritise high-accident regions for road design and safety-barrier improvements, without necessarily requiring new infrastructure spend.
+- **Time-targeted enforcement**: increase traffic monitoring, speed control and DUI checkpoints around the identified late-afternoon/evening and alcohol-related peak windows.
+- **Driver behaviour**: public awareness campaigns, defensive driving courses, vehicle safety checks, and speed-limiting technology in higher-risk zones.
 
-The analytical challenge was therefore to transform detailed crash and injury data into a structured visual decision-support story that could help users:
+## Approach
 
-- identify important crash and injury patterns;
-- explore how incidents vary across time and location;
-- investigate crash conditions and crash types;
-- understand patterns affecting different road-user groups; and
-- translate analytical findings into evidence-based road-safety recommendations.
+1. **Understand the data**: reviewed the consolidated crash and injury dataset across time, location, conditions, crash type and road-user dimensions.
+2. **Explore patterns**: analysed each dimension, then looked for interactions between them (e.g. time x alcohol involvement x severity).
+3. **Build the dashboards**: designed Tableau visualisations per analytical question, then combined them into linked dashboards.
+4. **Structure the story**: connected dashboards via Tableau's Story feature: Overview to Pattern Identification to Diagnostic Exploration to Recommendations.
+5. **Translate to recommendations**: converted visual findings into a consultant-style narrative aimed at road-safety decision-makers.
 
----
+## Tools & techniques
 
-## Key Analytical Questions
+`Tableau` `Descriptive Analytics` `Exploratory Data Analysis` `Temporal Analysis` `Geographic Analysis` `Data Storytelling` `Dashboard Development`
 
-The analysis was structured around questions such as:
+## Repository contents
 
-- When do road crashes and injuries occur?
-- Where are important geographic patterns visible?
-- How do crash characteristics and conditions differ?
-- Which road-user groups appear across different crash patterns?
-- What relationships become visible when temporal, geographic and road-user dimensions are analysed together?
-- How can the findings be communicated clearly to support road-safety decision-making?
-
----
-
-## Data
-
-The analysis used a consolidated dataset containing Victorian fatal and injury road-crash information.
-
-The dataset was developed from:
-
-- Victoria Police road-crash reports; and
-- hospital injury information.
-
-The data included attributes relating to:
-
-- time;
-- location;
-- crash conditions;
-- crash type;
-- road-user type; and
-- other crash and injury characteristics.
-
-The original assessment dataset is not redistributed through this repository.
-
----
-
-## Tools & Techniques
-
-### Technology
-- Tableau
-
-### Analysis
-- Descriptive Analytics
-- Exploratory Data Analysis
-- Temporal Analysis
-- Geographic Analysis
-- Crash-Condition Analysis
-- Crash-Type Analysis
-- Road-User Analysis
-
-### Business Intelligence & Communication
-- Interactive Data Visualisation
-- Dashboard Development
-- Tableau Story
-- Data Storytelling
-- Insight Communication
-- Evidence-Based Recommendations
-
----
-
-## Analytical Approach
-
-### 1. Understand the Data
-
-Reviewed the consolidated crash and injury dataset and identified the dimensions relevant to road-safety analysis, including time, location, conditions, crash characteristics and road-user information.
-
-### 2. Explore Crash Patterns
-
-Analysed the data across multiple dimensions to identify patterns that would be difficult to understand from raw records alone.
-
-### 3. Develop Visualisations
-
-Designed Tableau visualisations appropriate to different analytical questions and selected visual encodings to communicate patterns clearly.
-
-### 4. Build Interactive Dashboards
-
-Combined related visualisations into dashboards to enable users to explore road-safety information at different levels of detail.
-
-### 5. Develop the Tableau Story
-
-Connected the dashboards and visualisations through Tableau's Story functionality to create a structured analytical narrative.
-
-The story was designed to move users from broader road-safety patterns toward more detailed diagnostic analysis.
-
-### 6. Translate Analysis into Recommendations
-
-Converted the visual findings into a consultant-style narrative and evidence-based recommendations intended to support road-safety discussion and decision-making.
-
----
-
-## Analysis Areas
-
-### Temporal Analysis
-
-Explored how crash and injury patterns varied across time to identify recurring patterns and periods requiring closer investigation.
-
-### Geographic Analysis
-
-Examined the spatial distribution of road crashes to understand how incidents varied across Victorian locations.
-
-### Crash Conditions & Characteristics
-
-Investigated crash conditions and crash types to understand the circumstances associated with different road-safety patterns.
-
-### Road-User Analysis
-
-Examined road-user characteristics to understand how crash and injury patterns differed across road-user groups.
-
----
-
-## Dashboard & Tableau Story
-
-The final solution used multiple Tableau visualisations and dashboards connected through a Tableau Story.
-
-The visual design was structured to support progressive analysis:
-
-**High-Level Overview → Pattern Identification → Diagnostic Exploration → Findings → Recommendations**
-
-Dashboard screenshots will be included in this repository to provide a visual preview of the analysis without requiring users to open the Tableau workbook.
-
----
-
-## Key Outcomes
-
-The project demonstrated how multiple road-safety dimensions could be integrated into a single visual analytics workflow rather than analysed as isolated variables.
-
-Key outcomes included:
-
-- integrated analysis of crash and hospital injury information;
-- exploration of temporal, geographic, crash-condition, crash-type and road-user patterns;
-- development of multiple interactive Tableau visualisations and dashboards;
-- creation of a structured Tableau Story to communicate analytical findings;
-- translation of complex analytical findings into a structured decision-support narrative; and
-- development of evidence-based recommendations from the identified road-safety patterns.
-
----
-
-## Business Analysis Perspective
-
-Although primarily a data visualisation project, the work followed a broader business-analysis process:
-
-**Problem Context → Data Understanding → Analysis → Visualisation → Insight → Recommendation**
-
-This required translating a broad road-safety problem into specific analytical questions, selecting relevant information, structuring the analysis and communicating the resulting insights in a form suitable for decision-making.
-
----
-
-## Skills Demonstrated
-
-`Tableau` `Business Analysis` `Data Analysis` `Business Intelligence` `Data Visualisation` `Dashboard Development` `Exploratory Data Analysis` `Data Storytelling` `Decision Support` `Insight Communication`
-
----
-
-## Repository Structure
-
-victorian-road-crash-analytics/
-│
-├── README.md
-│
-├── dashboard/
-│   └── victorian-road-crash-analysis.twbx
-│
-├── images/
-│   ├── dashboard-overview.png
-│   ├── temporal-trends.png
-│   └── risk-analysis.png
-│
-└── documentation/
-    └── project-summary.pdf
+- [`victorian-road-crash-analysis.twb`](victorian-road-crash-analysis.twb): the Tableau workbook (data source not included)
+- `images/`: storyboard and panel views referenced above
